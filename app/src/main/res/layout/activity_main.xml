@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.stickyswitch.MainActivity">
+
+    <io.ghyeok.stickyswitch.widget.StickySwitch
+        android:id="@+id/sticky"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        app:iconPadding="18dp"
+        app:iconSize="22dp"
+        android:layout_centerInParent="true"
+        app:leftIcon="@drawable/cancel"
+        app:rightIcon="@drawable/plusicon"
+        app:leftText="SIH"
+        app:rightText="CSI"
+        app:selectedTextSize="14dp"
+        app:switchColor="#BA68C8"
+        app:textColor="#fff"
+        app:textSize="12sp"
+        app:sliderBackgroundColor="#039BE5"
+
+        />
+
+
+</RelativeLayout>
